@@ -63,7 +63,7 @@ const CreateCars = (() => {
   //produce cars
   function produceCars() {
     makeCar("chevy", "american");
-    makeCar("mercedes", "german", "../img/germanCar1.jpeg", true, "tot asa");
+    makeCar("mercedes", "german", "img/germanCar1.jpeg", true, "tot asa");
     makeCar(
       "mercedes",
       "german",
@@ -71,7 +71,7 @@ const CreateCars = (() => {
       undefined,
       "tot asa"
     );
-    makeCar("bmw", "german", "../img/germanCar3.jpeg", undefined, "tot asa23");
+    makeCar("bmw", "german", "img/germanCar3.jpeg", undefined, "tot asa23");
     makeCar("mercedes", "german", "../img/germanCar4.jpeg", false, "cam asa");
     makeCar("bmw", "german", "../img/germanCar5.jpeg", undefined, "tot asa");
     makeCar("chevy", "american", "../img/americanCar1.jpg", false);
