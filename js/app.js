@@ -72,16 +72,16 @@ const CreateCars = (() => {
       "tot asa"
     );
     makeCar("bmw", "german", "img/germanCar3.jpeg", undefined, "tot asa23");
-    makeCar("mercedes", "german", "../img/germanCar4.jpeg", false, "cam asa");
-    makeCar("bmw", "german", "../img/germanCar5.jpeg", undefined, "tot asa");
-    makeCar("chevy", "american", "../img/americanCar1.jpg", false);
-    makeCar("chevy", "american", "../img/americanCar2.jpeg", false);
-    makeCar("chevy", "american", "../img/americanCar3.jpeg", false);
-    makeCar("chevy", "american", "../img/americanCar4.jpg", false);
+    makeCar("mercedes", "german", "img/germanCar4.jpeg", false, "cam asa");
+    makeCar("bmw", "german", "img/germanCar5.jpeg", undefined, "tot asa");
+    makeCar("chevy", "american", "img/americanCar1.jpg", false);
+    makeCar("chevy", "american", "img/americanCar2.jpeg", false);
+    makeCar("chevy", "american", "img/americanCar3.jpeg", false);
+    makeCar("chevy", "american", "img/americanCar4.jpg", false);
     makeCar(
       "chevy",
       "american",
-      "../img/americanCar5.jpg",
+      "img/americanCar5.jpg",
       false,
       "LOL",
       "1",
