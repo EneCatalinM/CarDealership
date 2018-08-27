@@ -150,7 +150,7 @@ const displayCars = (CreateCars => {
         car.country
       }">
           <div class="card car-card">
-              <img src="${car.img}" alt="" class="card-img-top car-img">
+              <img src="${car.img}" alt="" class="card-img-top car-img" />
               <!-- card body -->
               <div class="card-body">
                   <div class="car-info d-flex justify-content-between">
