@@ -39,7 +39,7 @@ const CreateCars = (() => {
   function makeCar(
     make,
     country,
-    img = "../img/car-default.jpeg",
+    img = "img/car-default.jpeg",
     special = true,
     model = "new model",
     price = 10000,
@@ -64,24 +64,18 @@ const CreateCars = (() => {
   function produceCars() {
     makeCar("chevy", "american");
     makeCar("mercedes", "german", "img/germanCar1.jpeg", true, "tot asa");
-    makeCar(
-      "mercedes",
-      "german",
-      "../img/germanCar2.jpeg",
-      undefined,
-      "tot asa"
-    );
+    makeCar("mercedes", "german", "img/germanCar2.jpeg", undefined, "tot asa");
     makeCar("bmw", "german", "img/germanCar3.jpeg", undefined, "tot asa23");
-    makeCar("mercedes", "german", "../img/germanCar4.jpeg", false, "cam asa");
-    makeCar("bmw", "german", "../img/germanCar5.jpeg", undefined, "tot asa");
-    makeCar("chevy", "american", "../img/americanCar1.jpg", false);
-    makeCar("chevy", "american", "../img/americanCar2.jpeg", false);
-    makeCar("chevy", "american", "../img/americanCar3.jpeg", false);
-    makeCar("chevy", "american", "../img/americanCar4.jpg", false);
+    makeCar("mercedes", "german", "img/germanCar4.jpeg", false, "cam asa");
+    makeCar("bmw", "german", "img/germanCar5.jpeg", undefined, "tot asa");
+    makeCar("chevy", "american", "img/americanCar1.jpg", false);
+    makeCar("chevy", "american", "img/americanCar2.jpeg", false);
+    makeCar("chevy", "american", "img/americanCar3.jpeg", false);
+    makeCar("chevy", "american", "img/americanCar4.jpg", false);
     makeCar(
       "chevy",
       "american",
-      "../img/americanCar5.jpg",
+      "img/americanCar5.jpg",
       false,
       "LOL",
       "1",
