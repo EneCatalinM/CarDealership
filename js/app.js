@@ -111,7 +111,7 @@ const displaySpecialCars = (CreateCars => {
     let data = ``;
 
     specialCars.forEach(item => {
-      data += `   <!-- single item -->
+      data += `<!-- single item -->
       <div class="featured-item my-3 d-flex p-2 text-capitalize align-tems-baseline flex-wrap">
           <span data-img='${item.img}' class="featured-icon mr-2">
               <i class="fas fa-car"></i>
